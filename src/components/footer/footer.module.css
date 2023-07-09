@@ -1,0 +1,38 @@
+.footer {
+    background-color: #029491;
+    max-width: 100%;
+    width: 100%;
+}
+
+.content{
+    max-width: 1320px;
+    padding: 0 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+  
+.logoBlock{
+    display: flex;
+    align-items: center;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 25px 0;
+    color: #fff;
+}
+
+.text{
+    margin: 0;
+}
+
+.copyright{
+    margin: 0;
+    font-size: 12px;
+    line-height: 14.52px;
+}
