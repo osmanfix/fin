@@ -26,7 +26,7 @@ const Header = () => {
       window.addEventListener('resize', setSize);
       return( () => window.removeEventListener('resize', setSize ))
   }, [state.screenSize])
-
+ 
   useEffect(() => {
     expireCheck()
   }, [])

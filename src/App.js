@@ -3,14 +3,14 @@ import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import styled from "styled-components";
 import Header from "./components/Header/header";
 import Footer from "./components/footer/footer";
-import MainPage from "./Views/MainPage/MainPage";
-import AuthPage from "./Views/AuthPage/AuthPage";
-import SearchPage from "./Views/SearchPage/SearchPage";
-import ResultPage from "./Views/ResultPage/ResultPage";
+import MainPage from "./pages/MainPage/MainPage";
+import AuthPage from "./pages/AuthPage/authPage";
+import SearchPage from "./pages/SearchPage/SearchPage";
+import ResultPage from "./pages/ResultPage/ResultPage";
 import "./style.css"
 import store from "./store/store";
 import {Provider, useSelector} from "react-redux";
-import DefaultPage from "./Views/error";
+import DefaultPage from "./pages/error";
 
 
 function RequireAuth({ children, redirectTo }) {

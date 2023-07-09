@@ -1,0 +1,12 @@
+.head{
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 70px;
+  }
+  @media (max-width: 1226px) {
+    .head {
+      font-size: 28px;
+      line-height: 34px;
+      margin-bottom: 37px;
+    }
+  }

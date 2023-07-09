@@ -30,7 +30,7 @@ const UserInfo = ({setOpen, handleLink}) => {
                                     color={'#000'} bg={isDesktop ? 'unset' : '#7CE3E1'} /> 
                             </div>       
                         </div>     
-                        <img className={css.userPhoto} src={userLogo} alt='user-photo'/>                                                            
+                        <img className={css.userPhoto} src={userLogo} alt=''/>                                                            
                     </div>
                 : <div className={css.authLinks}>
                     <Button name={'Зарегистрироваться'} bg={'#fff'} color={'#666'} size={14} height={17}/>
